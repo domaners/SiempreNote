@@ -15,12 +15,14 @@
 	};
 	
 	c.createNewTask = function() {
+		
 		var newTaskText = document.getElementById("input-new-task").value;
 		if(newTaskText == "")
 			return;
 		
 		c.server.get({
 			action: "add_checkbox",
+			order: c.data.tasks.length + 1,
 			text: newTaskText
 		}).then(function(response) {
 			c.data = response.data;
@@ -86,11 +88,13 @@
 		newTsk.initialize();
 		newTsk.user = gs.getUserID();
 		newTsk.text = input.text;
+		newTsk.order = input.order;
 		newTsk.insert();
 	}
 	
 	var tsk = new GlideRecord("x_78983_smpnote_task");
 	tsk.addQuery("user", gs.getUserID());
+	tsk.orderBy("order");
 	tsk.query();
 	
 	var taskArr = [];
@@ -99,7 +103,8 @@
 		taskArr.push({
 			"text": tsk.text+'',
 			"complete": tsk.complete+'',
-			"sys_id": tsk.sys_id+''
+			"sys_id": tsk.sys_id+'',
+			"order": parseInt(tsk.order+'')
 		});
 	}
 	
