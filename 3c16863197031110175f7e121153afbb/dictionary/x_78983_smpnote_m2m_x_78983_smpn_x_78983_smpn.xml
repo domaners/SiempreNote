@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f47cea0e97435110175f7e121153af4b" label="x_78983_smpnote_m2m_Notes_Tags" max_length="40" name="x_78983_smpnote_m2m_x_78983_smpn_x_78983_smpn" type="collection">
+        <element attributes="encode_utf8=false" label="Notes" max_length="32" name="x_78983_smpnote_note" reference="x_78983_smpnote_note" type="reference"/>
+        <element attributes="encode_utf8=false" label="Tags" max_length="32" name="x_78983_smpnote_tag" reference="x_78983_smpnote_tag" type="reference"/>
+        <index name="index">
+            <element name="x_78983_smpnote_note"/>
+        </index>
+        <index name="index2">
+            <element name="x_78983_smpnote_tag"/>
+        </index>
+    </element>
+</database>

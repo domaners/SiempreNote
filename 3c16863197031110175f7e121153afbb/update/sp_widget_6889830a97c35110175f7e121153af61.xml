@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+  /* widget controller */
+  var c = this;
+	
+	c.processClick = function(task) {
+		c.server.get({
+			action: "set_checkbox",
+			task: task
+		}).then(function(response) {
+			c.data = response.data;
+		});
+	};
+	
+	c.createNewTask = function() {
+		var newTaskText = document.getElementById("input-new-task").value;
+		if(newTaskText == "")
+			return;
+		
+		c.server.get({
+			action: "add_checkbox",
+			text: newTaskText
+		}).then(function(response) {
+			c.data = response.data;
+			document.getElementById("input-new-task").value = "";
+		});
+	};
+	
+	c.createTaskReturn = function(event) {
+		if(event.keyCode != 13)
+			return;
+		
+		c.createNewTask();
+	};
+	
+	c.deleteTask = function(task) {
+		c.server.get({
+			action: "delete_checkbox",
+			task: task
+		}).then(function(response) {
+			c.data = response.data;
+		});
+	};
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.lbl-checked-true {
+  text-decoration: line-through;
+}
+
+.lbl-checked-false {
+  text-decoration: none;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>smp-my-tasks</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>My Task List</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  
+	if(input && input.action == "set_checkbox") {
+		var updateTsk = new GlideRecord("x_78983_smpnote_task");
+		if(updateTsk.get(input.task.sys_id)) {
+			updateTsk.complete = (input.task.complete == "true" ? false : true);
+			updateTsk.update();
+		}
+	} else if (input && input.action == "delete_checkbox") {
+		var delTask = new GlideRecord("x_78983_smpnote_task");
+		if(delTask.get(input.task.sys_id))
+			delTask.deleteRecord();
+	}
+	
+	if(input && input.action == "add_checkbox") {
+		var newTsk = new GlideRecord("x_78983_smpnote_task");
+		newTsk.initialize();
+		newTsk.user = gs.getUserID();
+		newTsk.text = input.text;
+		newTsk.insert();
+	}
+	
+	var tsk = new GlideRecord("x_78983_smpnote_task");
+	tsk.addQuery("user", gs.getUserID());
+	tsk.query();
+	
+	var taskArr = [];
+	
+	while(tsk.next()) {
+		taskArr.push({
+			"text": tsk.text+'',
+			"complete": tsk.complete+'',
+			"sys_id": tsk.sys_id+''
+		});
+	}
+	
+	data.tasks = taskArr;
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>adam.domanski</sys_created_by>
+        <sys_created_on>2022-11-10 14:51:16</sys_created_on>
+        <sys_id>6889830a97c35110175f7e121153af61</sys_id>
+        <sys_name>My Task List</sys_name>
+        <sys_package display_value="SiempreNote" source="x_78983_smpnote">3c16863197031110175f7e121153afbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SiempreNote">3c16863197031110175f7e121153afbb</sys_scope>
+        <sys_update_name>sp_widget_6889830a97c35110175f7e121153af61</sys_update_name>
+        <template><![CDATA[<div>
+	
+  <h2>My Tasks</h2>
+  <div class="container">
+    <div class="row" ng-repeat="task in data.tasks">
+      <div class="row tsk-item-row" id="div_{{task.sys_id}}">
+        <input class="col-xs-1" type="checkbox" id="chk_{{task.sys_id}}" name="chk_{{task.sys_id}}" value="{{task.sys_id}}" ng-checked="task.complete=='true'" ng-click="c.processClick(task);">
+        <label class="col-xs-9 lbl-checked-{{task.complete}}" id="lbl_{{task.sys_id}}" ng-click="c.processClick(task);">{{::task.text}}</label>
+        <div class="col-xs-2">
+          <img src="https://dev130136.service-now.com/images/closex_hover.gif" ng-click="c.deleteTask(task);" />
+        </div>
+      </div> 
+    </div>
+  </div>
+    
+  <div class="row tsk-new-row">
+    <div class="col-xs-1"></div>
+    <input class="col-xs-9 tsk-new-text" id="input-new-task" ng-blur="c.createNewTask();" ng-keypress="c.createTaskReturn($event);" placeholder="Enter new task here"><br><br>
+		<div class="col-xs-2"></div>
+  </div>
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

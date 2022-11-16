@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">422acb0a97c35110175f7e121153afeb</sp_column>
+        <sp_widget display_value="My Task List">6889830a97c35110175f7e121153af61</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>adam.domanski</sys_created_by>
+        <sys_created_on>2022-11-10 14:53:50</sys_created_on>
+        <sys_id>d03acb0a97c35110175f7e121153afa4</sys_id>
+        <sys_name/>
+        <sys_package display_value="SiempreNote" source="x_78983_smpnote">3c16863197031110175f7e121153afbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SiempreNote">3c16863197031110175f7e121153afbb</sys_scope>
+        <sys_update_name>sp_instance_d03acb0a97c35110175f7e121153afa4</sys_update_name>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=d03acb0a97c35110175f7e121153afa4"/>
+</record_update>

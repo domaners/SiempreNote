@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Notes</name>
+        <order>100</order>
+        <roles>x_78983_smpnote.user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>adam.domanski</sys_created_by>
+        <sys_created_on>2022-11-09 17:26:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>12936a7d97831110175f7e121153afdc</sys_id>
+        <sys_name>SiempreNote</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SiempreNote" source="x_78983_smpnote">3c16863197031110175f7e121153afbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SiempreNote">3c16863197031110175f7e121153afbb</sys_scope>
+        <sys_update_name>sys_app_application_12936a7d97831110175f7e121153afdc</sys_update_name>
+        <title>SiempreNote</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

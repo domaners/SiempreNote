@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="INSERT_OR_UPDATE">
+        <icon>{"list":"1"}</icon>
+        <name>Test123</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-11 14:56:00</sys_created_on>
+        <sys_id>bd4458e297879110175f7e121153af4d</sys_id>
+        <sys_name>Test123</sys_name>
+        <sys_package display_value="SiempreNote" source="x_78983_smpnote">3c16863197031110175f7e121153afbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SiempreNote">3c16863197031110175f7e121153afbb</sys_scope>
+        <sys_update_name>sys_sg_icon_bd4458e297879110175f7e121153af4d</sys_update_name>
+        <type>font</type>
+    </sys_sg_icon>
+</record_update>
