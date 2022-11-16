@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_78983_smpnote.user" name="x_78983_smpnote.user">24632e3d97831110175f7e121153af09</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>adam.domanski</sys_created_by>
+        <sys_created_on>2022-11-09 17:25:54</sys_created_on>
+        <sys_id>9263a67d97831110175f7e121153afc6</sys_id>
+        <sys_name>24632e3d97831110175f7e121153af09</sys_name>
+        <sys_package display_value="SiempreNote" source="x_78983_smpnote">3c16863197031110175f7e121153afbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SiempreNote">3c16863197031110175f7e121153afbb</sys_scope>
+        <sys_update_name>sys_embedded_help_role_9263a67d97831110175f7e121153afc6</sys_update_name>
+    </sys_embedded_help_role>
+</record_update>

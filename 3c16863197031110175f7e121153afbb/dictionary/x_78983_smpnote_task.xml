@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fd06c70697c35110175f7e121153aff3" label="Task" max_length="40" name="x_78983_smpnote_task" type="collection">
+        <element label="Complete?" max_length="40" name="complete" type="boolean"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="text" max_length="255" name="text" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

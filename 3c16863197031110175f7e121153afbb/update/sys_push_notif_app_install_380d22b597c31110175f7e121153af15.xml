@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2022-11-09 18:07:51</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>adam.domanski</sys_created_by>
+        <sys_created_on>2022-11-09 18:07:51</sys_created_on>
+        <sys_id>380d22b597c31110175f7e121153af15</sys_id>
+        <sys_name>BEF578887F07F6369D04CF18A5B72F328C313E762C0C46AB6E53378DCCF38BB9</sys_name>
+        <sys_package display_value="SiempreNote" source="x_78983_smpnote">3c16863197031110175f7e121153afbb</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Request Application">ac7f61d273122300d63a566a4cf6a78b</sys_push_application_id>
+        <sys_push_platform_id display_value="Apple">20e71f30ff0002009738ffffffffff6b</sys_push_platform_id>
+        <sys_scope display_value="SiempreNote">3c16863197031110175f7e121153afbb</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_380d22b597c31110175f7e121153af15</sys_update_name>
+        <sys_user_id display_value="Adam Domanski">43203a4797f11110175f7e121153afe6</sys_user_id>
+        <token>BEF578887F07F6369D04CF18A5B72F328C313E762C0C46AB6E53378DCCF38BB9</token>
+    </sys_push_notif_app_install>
+</record_update>

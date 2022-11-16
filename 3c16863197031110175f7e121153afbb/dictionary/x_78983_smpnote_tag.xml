@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="aabaae8a97435110175f7e121153afa2" label="Tag" max_length="40" name="x_78983_smpnote_tag" type="collection">
+        <element label="Name" max_length="64" name="name" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
