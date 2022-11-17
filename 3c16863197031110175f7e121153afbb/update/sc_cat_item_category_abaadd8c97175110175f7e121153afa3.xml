@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Note">ddf61dc897175110175f7e121153af68</sc_cat_item>
+        <sc_category display_value="Edit Notes">b99a9dcc97175110175f7e121153af63</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>adam.domanski</sys_created_by>
+        <sys_created_on>2022-11-16 11:54:28</sys_created_on>
+        <sys_id>abaadd8c97175110175f7e121153afa3</sys_id>
+        <sys_name>Edit Notes.Note</sys_name>
+        <sys_package display_value="SiempreNote" source="x_78983_smpnote">3c16863197031110175f7e121153afbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SiempreNote">3c16863197031110175f7e121153afbb</sys_scope>
+        <sys_update_name>sc_cat_item_category_abaadd8c97175110175f7e121153afa3</sys_update_name>
+    </sc_cat_item_category>
+</record_update>

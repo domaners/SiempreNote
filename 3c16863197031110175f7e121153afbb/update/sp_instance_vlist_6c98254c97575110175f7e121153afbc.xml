@@ -8,7 +8,7 @@
         <field_list/>
         <filter table="x_78983_smpnote_note">userDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="user" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
         </filter>
-        <glyph>empty</glyph>
+        <glyph/>
         <id/>
         <maximum_entries>10</maximum_entries>
         <order>1</order>
@@ -18,17 +18,17 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">422acb0a97c35110175f7e121153afeb</sp_column>
-        <sp_page/>
-        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sp_page display_value="smp_note">993145c497d35110175f7e121153af8f</sp_page>
+        <sp_widget display_value="Note List">3c58ad0c97575110175f7e121153af45</sp_widget>
         <sys_class_name>sp_instance_vlist</sys_class_name>
         <sys_created_by>adam.domanski</sys_created_by>
-        <sys_created_on>2022-11-11 15:41:15</sys_created_on>
-        <sys_id>60aedc2e97879110175f7e121153afed</sys_id>
+        <sys_created_on>2022-11-16 12:55:10</sys_created_on>
+        <sys_id>6c98254c97575110175f7e121153afbc</sys_id>
         <sys_name/>
         <sys_package display_value="SiempreNote" source="x_78983_smpnote">3c16863197031110175f7e121153afbb</sys_package>
         <sys_policy/>
         <sys_scope display_value="SiempreNote">3c16863197031110175f7e121153afbb</sys_scope>
-        <sys_update_name>sp_instance_vlist_60aedc2e97879110175f7e121153afed</sys_update_name>
+        <sys_update_name>sp_instance_vlist_6c98254c97575110175f7e121153afbc</sys_update_name>
         <table>x_78983_smpnote_note</table>
         <title/>
         <url/>
@@ -50,8 +50,8 @@
 		"displayValue": "text"
 	},
 	"rounded_images": {
-		"value": "true",
-		"displayValue": "true"
+		"value": "",
+		"displayValue": ""
 	},
 	"list_page": {
 		"value": "",
@@ -70,10 +70,10 @@
 		"displayValue": ""
 	},
 	"filter_acls": {
-		"value": "false",
-		"displayValue": "false"
+		"value": "true",
+		"displayValue": "true"
 	}
 }]]></widget_parameters>
     </sp_instance_vlist>
-    <sys_translated_text action="delete_multiple" query="documentkey=60aedc2e97879110175f7e121153afed"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c98254c97575110175f7e121153afbc"/>
 </record_update>

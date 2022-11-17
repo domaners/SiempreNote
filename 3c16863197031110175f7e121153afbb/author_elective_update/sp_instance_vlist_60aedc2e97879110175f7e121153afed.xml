@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>title</display_field>
+        <field_list/>
+        <filter table="x_78983_smpnote_note">userDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="user" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
+        <glyph>empty</glyph>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">422acb0a97c35110175f7e121153afeb</sp_column>
+        <sp_page display_value="smp_note">993145c497d35110175f7e121153af8f</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>adam.domanski</sys_created_by>
+        <sys_created_on>2022-11-11 15:41:15</sys_created_on>
+        <sys_id>60aedc2e97879110175f7e121153afed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SiempreNote" source="x_78983_smpnote">3c16863197031110175f7e121153afbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SiempreNote">3c16863197031110175f7e121153afbb</sys_scope>
+        <sys_update_name>sp_instance_vlist_60aedc2e97879110175f7e121153afed</sys_update_name>
+        <sys_updated_by>adam.domanski</sys_updated_by>
+        <sys_updated_on>2022-11-16 12:03:14</sys_updated_on>
+        <table>x_78983_smpnote_note</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "text",
+		"displayValue": "text"
+	},
+	"rounded_images": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=60aedc2e97879110175f7e121153afed"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SiempreNote">3c16863197031110175f7e121153afbb</application>
+        <file_path/>
+        <instance_id>b6fc919fdb7499502f68c5970596196a</instance_id>
+        <instance_name>dev130136</instance_name>
+        <name>sp_instance_vlist_60aedc2e97879110175f7e121153afed</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;title&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter table="x_78983_smpnote_note"&gt;userDYNAMIC90d1921e5f510100a9ad2572f2b477fe&lt;item endquery="false" field="user" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;/filter&gt;&lt;glyph&gt;empty&lt;/glyph&gt;&lt;id/&gt;&lt;maximum_entries&gt;10&lt;/maximum_entries&gt;&lt;order&gt;1&lt;/order&gt;&lt;order_by/&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;422acb0a97c35110175f7e121153afeb&lt;/sp_column&gt;&lt;sp_page display_value="smp_note"&gt;993145c497d35110175f7e121153af8f&lt;/sp_page&gt;&lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;adam.domanski&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-11 15:41:15&lt;/sys_created_on&gt;&lt;sys_id&gt;60aedc2e97879110175f7e121153afed&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SiempreNote" source="x_78983_smpnote"&gt;3c16863197031110175f7e121153afbb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SiempreNote"&gt;3c16863197031110175f7e121153afbb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_60aedc2e97879110175f7e121153afed&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;adam.domanski&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-16 12:03:14&lt;/sys_updated_on&gt;&lt;table&gt;x_78983_smpnote_note&lt;/table&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "text",
+		"displayValue": "text"
+	},
+	"rounded_images": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=60aedc2e97879110175f7e121153afed"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1411313231</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3974688897535110175f7e121153af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.domanski</sys_created_by>
+        <sys_created_on>2022-11-16 12:03:14</sys_created_on>
+        <sys_id>f7acd58097575110175f7e121153afb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184805266080000001</sys_recorded_at>
+        <sys_updated_by>adam.domanski</sys_updated_by>
+        <sys_updated_on>2022-11-16 12:03:14</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>33acd5806e57511057617c51dab340b6</update_guid>
+        <update_guid_history>33acd5806e57511057617c51dab340b6:-1411313231,6f3028eeb687911095bf3d0603cddc37:-1364758399,3e002cae8f87911030900ee0f5bffcab:414249312,8adf1cae5d879110d1cbcc6275bdb244:-1364758399,336f58ae1a87911070d2c270f5efa10d:1964157559,d22fd4aef987911015f4b8f5df79a793:-302872053,2afed06e1a8791100f8e8058090a41ae:1703873884,60aedc2e60879110660c0e71593367ef:1355790482</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">18c9698c97575110175f7e121153af3b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.domanski</sys_created_by>
+        <sys_created_on>2022-11-16 13:00:20</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>33a7bd4cf992478895832b36f346d329</sys_id>
+        <sys_metadata>60aedc2e97879110175f7e121153afed</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="SiempreNote" source="x_78983_smpnote">3c16863197031110175f7e121153afbb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SiempreNote">3c16863197031110175f7e121153afbb</sys_scope>
+        <sys_scope_delete display_value="">050d1cf4ebbd432c87d0d00fa9dc5b51</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_60aedc2e97879110175f7e121153afed</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_60aedc2e97879110175f7e121153afed">f7acd58097575110175f7e121153afb6</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
