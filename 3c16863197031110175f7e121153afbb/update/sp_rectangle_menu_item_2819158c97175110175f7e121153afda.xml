@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph/>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Create Note</label>
+        <order>200</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page/>
+        <sp_rectangle_menu display_value="SiempreNote Main Menu">3bdb9caa97879110175f7e121153af32</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>adam.domanski</sys_created_by>
+        <sys_created_on>2022-11-16 11:50:37</sys_created_on>
+        <sys_id>2819158c97175110175f7e121153afda</sys_id>
+        <sys_name>Create Note</sys_name>
+        <sys_package display_value="SiempreNote" source="x_78983_smpnote">3c16863197031110175f7e121153afbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SiempreNote">3c16863197031110175f7e121153afbb</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_2819158c97175110175f7e121153afda</sys_update_name>
+        <table/>
+        <type>url</type>
+        <url>../siemprenote?id=smp_note&amp;sys_id=ddf61dc897175110175f7e121153af68&amp;note_id=-1</url>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=2819158c97175110175f7e121153afda"/>
+</record_update>

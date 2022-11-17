@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="SiempreNote">f1075dc897175110175f7e121153afe3</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>adam.domanski</sys_created_by>
+        <sys_created_on>2022-11-16 11:38:38</sys_created_on>
+        <sys_id>2f07998897175110175f7e121153afb2</sys_id>
+        <sys_name>SiempreNote.catalog_siemprenote</sys_name>
+        <sys_package display_value="SiempreNote" source="x_78983_smpnote">3c16863197031110175f7e121153afbb</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_siemprenote">2707998897175110175f7e121153afb1</sys_portal_page>
+        <sys_scope display_value="SiempreNote">3c16863197031110175f7e121153afbb</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_2f07998897175110175f7e121153afb2</sys_update_name>
+    </sc_catalog_view_mtom>
+</record_update>

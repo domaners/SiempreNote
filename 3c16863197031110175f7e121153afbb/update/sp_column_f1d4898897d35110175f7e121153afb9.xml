@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">f9d4898897d35110175f7e121153afb6</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>adam.domanski</sys_created_by>
+        <sys_created_on>2022-11-16 10:19:03</sys_created_on>
+        <sys_id>f1d4898897d35110175f7e121153afb9</sys_id>
+        <sys_name>1</sys_name>
+        <sys_package display_value="SiempreNote" source="x_78983_smpnote">3c16863197031110175f7e121153afbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SiempreNote">3c16863197031110175f7e121153afbb</sys_scope>
+        <sys_update_name>sp_column_f1d4898897d35110175f7e121153afb9</sys_update_name>
+    </sp_column>
+</record_update>
